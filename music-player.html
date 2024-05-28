@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Music Player</title>
+    <link rel="stylesheet" href="music-player-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <meta
+        name="viewport"
+        content=
+        "
+            width=device-width,
+            initial-scale=1.0,
+            maximum-scale=1.0,
+            user-scalable=0,
+        "
+    />
+</head>
+
+<body class="web-body">
+    <div class="general">
+        <div class="left-sidebar">
+            <div class="div-my-logo">
+                <div class="spinner">
+                    <div class="spinner1"></div>
+                </div>
+            </div>
+
+            <div class="features">
+                <div class="div-home"><img class="home-icon" src="images/home-icon.png" loading="lazy"></div>
+                <div class="div-musics"><img class="musics-icon" src="images/musics-icon.png" loading="lazy"></div>
+                <div class="div-people"><img class="people-icon" src="images/people-icon.png" loading="lazy"></div>
+                <div class="div-playlists"><img class="playlists-icon" src="images/playlists-icon.png" loading="lazy"></div>
+                <div class="div-setting"><img class="setting-icon" src="images/setting-icon.png" loading="lazy"></div>
+            </div>
+
+            <div class="div-cloudcheck"><img class="cloudcheck-icon" src="images/cloudcheck-icon.png" loading="lazy"></div>
+        </div>
+
+        <div class="middle-section">
+            <div class="middle-top-section">
+                <div class="group">
+                    <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
+                        <g>
+                            <path
+                                d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z">
+                            </path>
+                        </g>
+                    </svg>
+                    <input placeholder="Search artist, song and..." type="search" class="input" spellcheck="true">
+                </div>
+            </div>
+
+            <div class="middle-section-playlists">
+                <div class="playlists-text-icon">
+                    <div class="playlists-text">PLAYLISTS</div>
+                    <div class="div-more">
+                        <p class="more-text">More</p>
+                        <img class="more-icon" src="images/right-icon.png" loading="lazy">
+                    </div>
+                </div>
+
+                <div class="different-playlists">
+                    <div class="rock-music">
+                        <img class="rock-music-pic" src="images/rock-music-pic.jpg" loading="lazy">
+                        <p class="different-playlists-name">Rock music</p>
+                    </div>
+
+                    <div class="pop-music">
+                        <img class="pop-music-pic" src="images/pop-music-pic.png" loading="lazy">
+                        <p class="different-playlists-name">Pop music</p>
+                    </div>
+
+                    <div class="neo-folk-music">
+                        <img class="neo-music-pic" src="images/neo-folk-music-pic.jpg" loading="lazy">
+                        <p class="different-playlists-name">Neo-folk</p>
+                    </div>
+
+                    <div class="most-popular">
+                        <img class="most-popular-pic" src="images/most-popular-music.jpg" loading="lazy">
+                        <p class="different-playlists-name">Most popular</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="favorite-artists">
+                <div class="fav-artists-text-icon">
+                    <div class="fav-artists-text">FAVORITE ARTISTS</div>
+                    <div class="div-more">
+                        <p class="more-text">More</p>
+                        <img class="more-icon" src="images/right-icon.png" loading="lazy">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="fav-artists">
+                <div class="artist">
+                    <div class="div-artist-pic"><img class="artist-pic" src="images/weekend-pic.jpg" loading="lazy"></div>
+
+                    <div class="artist-info">
+                        <div class="artist-name">The Weekend</div>
+                        <div class="song-number">53 songs</div>
+                    </div>
+
+                    <div class="div-dot-icon"><img class="dot-icon" src="images/dot-icon.png" loading="lazy"></div>
+                </div>
+
+                <div class="artist">
+                    <div class="div-artist-pic"><img class="artist-pic" src="images/imagine-dragons-pic.jpg" loading="lazy"></div>
+
+                    <div class="artist-info">
+                        <div class="artist-name">Imagine Dragons</div>
+                        <div class="song-number">142 songs</div>
+                    </div>
+
+                    <div class="div-dot-icon"><img class="dot-icon" src="images/dot-icon.png" loading="lazy"></div>
+                </div>
+
+                <div class="artist">
+                    <div class="div-artist-pic"><img class="artist-pic" src="images/harry-styles-pic.jpg" loading="lazy"></div>
+
+                    <div class="artist-info">
+                        <div class="artist-name">Harry Styles</div>
+                        <div class="song-number">51 songs</div>
+                    </div>
+
+                    <div class="div-dot-icon"><img class="dot-icon" src="images/dot-icon.png" loading="lazy"></div>
+                </div>
+
+                <div class="artist">
+                    <div class="div-artist-pic"><img class="artist-pic" src="images/kayzo-pic.jpg" loading="lazy"></div>
+
+                    <div class="artist-info">
+                        <div class="artist-name">Kayzo</div>
+                        <div class="song-number">34 songs</div>
+                    </div>
+
+                    <div class="div-dot-icon"><img class="dot-icon" src="images/dot-icon.png" loading="lazy"></div>
+                </div>
+
+                <div class="artist">
+                    <div class="div-artist-pic"><img class="artist-pic" src="images/anakondaz-pic.jpg" loading="lazy"></div>
+
+                    <div class="artist-info">
+                        <div class="artist-name">Anakondaz</div>
+                        <div class="song-number">79 songs</div>
+                    </div>
+
+                    <div class="div-dot-icon"><img class="dot-icon" src="images/dot-icon.png" loading="lazy"></div>
+                </div>
+            </div>
+            <div class="playing-bar">
+                <div class="playing-music">
+                    <div class="div-playing-music-pic"><img class="playing-music-pic" src="images/rock-music-pic.jpg" loading="lazy"></div>
+                    <div class="playing-music-info">
+                        <div class="playing-music-name">Enemy</div>
+                        <div class="playing-music-artist">Imagine dragons</div>
+                    </div>
+                </div>
+
+                <div class="playing-features">
+                    <div class="playing-options">
+                        <div class="div-refresh-icon"><img class="refresh-icon" src="images/refresh-icon.png" loading="lazy"></div>
+                        <div class="div-previous-icon"><img class="previous-icon" src="images/previous-icon.png" loading="lazy"></div>
+                        <div class="div-pause-icon"><img class="pause-icon" src="images/pause-icon.png" loading="lazy"></div>
+                        <div class="div-next-icon"><img class="next-icon" src="images/next-icon.png" loading="lazy"></div>
+                        <div class="div-shuffle-icon"><img class="shuffle-icon" src="images/shuffle-icon.png" loading="lazy"></div>
+                    </div>
+
+                    <div class="playing-time">
+                        <div class="past-time">00:00</div>
+                        <div class="time-bar"></div>
+                        <div class="total-time">3:21</div>
+                    </div>
+                </div>
+
+                <div class="speaker-star-other">
+                    <div class="div-speaker-icon"><img class="speaker-icon" src="images/speaker-icon.png" loading="lazy"></div>
+                    <div class="div-star-icon"><img class="star-icon" src="images/star-icon.png" loading="lazy"></div>
+                    <div class="download-button">
+                        <button class="Btn">
+                            <svg class="svgIcon" viewBox="0 0 384 512" height="1em" xmlns="http://www.w3.org/2000/svg"><path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path></svg>
+                            <span class="icon2"></span>
+                         </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-sidebar">
+
+            <div class="div-notif-button">
+                <button class="notif-button">
+                    <svg viewBox="0 0 448 512" class="bell">
+                        <path
+                            d="M224 0c-17.7 0-32 14.3-32 32V49.9C119.5 61.4 64 124.2 64 200v33.4c0 45.4-15.5 89.5-43.8 124.9L5.3 377c-5.8 7.2-6.9 17.1-2.9 25.4S14.8 416 24 416H424c9.2 0 17.6-5.3 21.6-13.6s2.9-18.2-2.9-25.4l-14.9-18.6C399.5 322.9 384 278.8 384 233.4V200c0-75.8-55.5-138.6-128-150.1V32c0-17.7-14.3-32-32-32zm0 96h8c57.4 0 104 46.6 104 104v33.4c0 47.9 13.9 94.6 39.7 134.6H72.3C98.1 328 112 281.3 112 233.4V200c0-57.4 46.6-104 104-104h8zm64 352H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3z">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="div-last-played">
+                <div class="last-played-text">Last played</div>
+                <div class="div-lastplayed-icon"><img class="lastplayed-icon" src="images/up-lastplayed-icon.png" loading="lazy"></div>
+                <div class="div-lastplayed-song"><img class="lastplayed-song" src="images/starboy.jpg" loading="lazy"></div>
+                <div class="div-lastplayed-song"><img class="lastplayed-song" src="images/Divide.jpg" loading="lazy"></div>
+                <div class="div-lastplayed-song"><img class="lastplayed-song" src="images/Drake_For_All_The_Dogs.jpg" loading="lazy"></div>
+                <div class="div-lastplayed-song"><img class="lastplayed-song" src="images/Harry's House.jpg" loading="lazy"></div>
+                <div class="div-lastplayed-song"><img class="lastplayed-song" src="images/music-to-be-murdered-by.jpg" loading="lazy"></div>
+                <div class="div-lastplayed-icon"><img class="lastplayed-icon" src="images/down-lastplayed-icon.png" loading="lazy"></div>
+            </div>
+
+            <div class="empty-space">
+                <div class="spinner">
+                    <div class="spinner1"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
